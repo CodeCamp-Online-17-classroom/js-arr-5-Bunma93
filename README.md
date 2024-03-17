@@ -1,5 +1,10 @@
-# js-lab-90
-### Lab90 Array: การรับ/เก็บค่าArray
-ให้ใช้ฟังก์ชัน prompt เพื่อรับค่าตัวเลข แล้วเก็บไว้ในตัวแปร Array
-- รับค่าตัวเลขไปเรื่อยๆจนกว่าผู้ใช้จะพิมพ์ข้อความที่ไม่ใช่ตัวเลขหรือกด cancel
-- ให้หาผลรวมของตัวเลขที่เก็บไว้ในตัวแปร Array
+# js-lab-91
+### Lab91 Array: Guess Result1
+ผลจากการรันคำสั่งในบรรทัด * คืออะไร
+
+```JavaScript
+const beasts = ['ant', 'bison', 'camel', 'duck', 'bison'];
+console.log(beasts.indexOf('bison')); // *
+console.log(beasts.indexOf('bison', 2)); // **
+console.log(beasts.indexOf('giraffe')); // ***
+```
